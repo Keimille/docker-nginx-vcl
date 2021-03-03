@@ -14,7 +14,6 @@ COPY ./ssl/ /etc/ssl/certs/nginx/
 
 EXPOSE 80
 EXPOSE 443
-EXPOSE
 
 RUN apt-get update && apt-get install -y iputils-ping
 RUN service nginx start
