@@ -10,7 +10,7 @@ Repository to experiment with nginx reverse proxy and VCL with Docker Containers
 ## Configuration 
 
 ### Configure Web Server
-You can run what ever web application or api you would like here. The major thing to consider when running in your local Docker environment is to use the `--network="your_network)here"` command so that all containers are on the same network.
+You can run what ever web application or api you would like here. The major thing to consider when running in your local Docker environment is to use the `--network="your_network_here"` command so that all containers are on the same network.
 
 ### Configure VCL
 Edit or create a default.vcl folder. The configuration will look something like the following:
