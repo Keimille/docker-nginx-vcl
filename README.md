@@ -47,7 +47,7 @@ include /etc/nginx/includes/ssl.conf;
 }
 ```
 
-The key thing to note about this configuration is that ==the proxy_pass value should point to your VCL and NOT the webserver.==
+The key thing to note about this configuration is that the proxy_pass value should point to your VCL and NOT the webserver.
 
 When you run this container make sure to run `service nginx start` in the container's CLI
 
